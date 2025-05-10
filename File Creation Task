@@ -1,1 +1,53 @@
-File Creation Task output
+Last login: Sat May 10 04:54:22 2025 from 13.48.4.202
+[ec2-user@ip-172-31-29-164 ~]$ touch file_1.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_2.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_3.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_4.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_5.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_6.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_7.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_8.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_9.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_10.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_11.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_12.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_13.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_14.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_15.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_16.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_17.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_18.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_19.txt
+[ec2-user@ip-172-31-29-164 ~]$ touch file_20.txt
+[ec2-user@ip-172-31-29-164 ~]$ mv file_1.txt file_1.yml
+[ec2-user@ip-172-31-29-164 ~]$ mv file_2.txt file_2.yml
+[ec2-user@ip-172-31-29-164 ~]$ mv file_3.txt file_3.yml
+[ec2-user@ip-172-31-29-164 ~]$ mv file_4.txt file_4.yml
+[ec2-user@ip-172-31-29-164 ~]$ mv file_5.txt file_5.yml
+[ec2-user@ip-172-31-29-164 ~]$ ls
+file_1.yml   file_11.txt  file_13.txt  file_15.txt  file_17.txt  file_19.txt  file_20.txt  file_4.yml  file_6.txt  file_8.txt  my_folder
+file_10.txt  file_12.txt  file_14.txt  file_16.txt  file_18.txt  file_2.yml   file_3.yml   file_5.yml  file_7.txt  file_9.txt
+[ec2-user@ip-172-31-29-164 ~]$ ls -lt
+total 0
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:07 file_20.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:07 file_19.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:07 file_18.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:07 file_17.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:07 file_16.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:07 file_15.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:07 file_14.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_13.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_12.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_11.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_10.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_9.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_8.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_7.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_6.txt
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_5.yml
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_4.yml
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_3.yml
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_2.yml
+-rw-r--r--. 1 ec2-user ec2-user  0 May 10 05:06 file_1.yml
+drwxr-xr-x. 2 ec2-user ec2-user 49 May 10 05:03 my_folder
+[ec2-user@ip-172-31-29-164 ~]$
