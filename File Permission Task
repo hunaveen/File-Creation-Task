@@ -1,0 +1,6 @@
+Last login: Sat May 10 05:56:18 2025 from 13.48.4.203
+[ec2-user@ip-172-31-22-104 ~]$ sudo touch /home/demo.txt
+[ec2-user@ip-172-31-22-104 ~]$ sudo chmod 764 /home/demo.txt
+[ec2-user@ip-172-31-22-104 ~]$ ls -l /home/demo.txt
+-rwxrw-r--. 1 root root 0 May 10 06:04 /home/demo.txt
+[ec2-user@ip-172-31-22-104 ~]$
