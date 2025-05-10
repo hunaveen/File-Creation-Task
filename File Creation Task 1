@@ -1,0 +1,11 @@
+[ec2-user@ip-172-31-22-104 ~]$ mkdir my_folder
+[ec2-user@ip-172-31-22-104 ~]$ cd my_folder
+[ec2-user@ip-172-31-22-104 my_folder]$ echo "Naveen Gerald" > my_file.txt
+[ec2-user@ip-172-31-22-104 my_folder]$ echo "Saint Hubert" > another_file.txt
+[ec2-user@ip-172-31-22-104 my_folder]$ cat another_file.txt >> my_file.txt
+[ec2-user@ip-172-31-22-104 my_folder]$ cat my_file.txt
+Naveen Gerald
+Saint Hubert
+[ec2-user@ip-172-31-22-104 my_folder]$ ls
+another_file.txt  my_file.txt
+[ec2-user@ip-172-31-22-104 my_folder]$
